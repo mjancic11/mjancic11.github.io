@@ -1,0 +1,14 @@
+{
+  "hash": "67cb0305bd7b2b5293003a4db577a7b8",
+  "result": {
+    "markdown": "---\ntitle: \"Post With Code\"\ndescription: \"Testing quarto for the first time with some R code\"\nauthor: \"Fizz McPhee\"\ndate: \"2/1/2023\"\ncategories:\n  - code\n  - analysis\nformat:\n  html:\n    code-copy: true\n    theme: sketchy\n---\n\n\n## Access built in dataset\n\n\n::: {.cell}\n\n```{.r .cell-code}\ndata(cars)\n```\n:::\n\n\n## \n\n\n::: {.cell}\n\n```{.r .cell-code}\nhead(cars)\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n  speed dist\n1     4    2\n2     4   10\n3     7    4\n4     7   22\n5     8   16\n6     9   10\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

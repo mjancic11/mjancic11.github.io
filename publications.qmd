@@ -1,0 +1,15 @@
+---
+title: "Publications"
+about:
+  template: marquee
+
+bibliography: My pubs.bib
+nocite: |
+  '@*'
+csl: https://www.zotero.org/styles/frontiers-in-marine-science
+filters:
+  - dociteproc.lua
+  - boldname.lua
+citeproc: false
+---
+

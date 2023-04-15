@@ -1,0 +1,23 @@
+---
+title: ""
+listing:
+  contents: posts
+  sort: "date desc"
+  type: grid
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+format:
+  html:
+    code-copy: true
+---
+
+Decided to share my thoughts, R related teaching and research in times of Chat GPT and general information overload.
+
+Inspired by [Appsilons](https://appsilon.com/) [Data for Good](https://appsilon.com/data-for-good/) and [Experimental history](https://experimentalhistory.substack.com/) (and many others, whose pages I glimpsed and can't remember of the top of my head).
+
+Enjoy.
+
+---

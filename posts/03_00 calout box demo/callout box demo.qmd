@@ -1,0 +1,46 @@
+---
+title: "The One in which I learned to use call-out boxes"
+description: ""
+author: "Matic Jančič"
+date: "2/18/2023"
+image: "image.png"
+categories:
+  - code
+  - teaching
+  - opinion
+format:
+  html:
+    code-copy: true
+    code-fold: true
+    code-summary: "Show the code"
+    toc: true
+execute:
+  freeze: true 
+---
+
+I was resolving the default printing of numbers as a result of inline R code in the previous post (the number of fin whale occurences in the GBIF dataset). I resolved it bi using "scipen", but in the proces of searching came accross a nice visual display of a summary at the top of the page [here](https://graphdr.github.io/data-stories/posts/2022-11-18-formatdown/).
+
+::: {.callout-note}
+Note that there are five types of callouts, including:
+`note`, `warning`, `important`, `tip`, and `caution`.
+:::
+
+::: {.callout-warning}
+Note that there are five types of callouts, including:
+`note`, `warning`, `important`, `tip`, and `caution`.
+:::
+
+::: {.callout-important}
+Note that there are five types of callouts, including:
+`note`, `warning`, `important`, `tip`, and `caution`.
+:::
+
+::: {.callout-tip}
+Note that there are five types of callouts, including:
+`note`, `warning`, `important`, `tip`, and `caution`.
+:::
+
+::: {.callout-caution}
+Note that there are five types of callouts, including:
+`note`, `warning`, `important`, `tip`, and `caution`.
+:::

@@ -1,0 +1,52 @@
+---
+title: "About"
+image: profile.jpg
+about:
+  template: solana
+  links:
+    - icon: book-half
+      text: Uni Web
+      href: https://www.famnit.upr.si/sl/zaposleni-in-sodelavci/matic.jancic/
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/maticjancic/
+    - icon: github
+      text: Github
+      href: https://github.com
+    - icon: reserchgate
+      text: ResearchGate
+      href: https://www.researchgate.net/profile/Matic-Jancic
+---
+
+
+
+This is me. I like being outdoors - hiking, biking, running, climbing (sometimes more, sometimes less). I also tried alpine climbing and ultra trail running. I have a lovely girlfriend and a 16 years younger brother. I love them both very deeply.
+
+This is also me. I'm grinding as a teaching assistant and PhD student for the past (almost) 7 years. I think I like research, but I'm disappointed by precariousness of the job, (too) long hours and (too) low pay.
+
+If you wonder what I do, I study sea turtles (and sharks to a lesser extent). You will think that this is exciting and amazing. And it is, most of the time at least. I spent three whole summers on fishing boats (starting at 3 - 4 AM), I flew a DJI Phantom 4 PRO drone over the sea and glued multiple satellite and GPS-GSM tags (and twice both at the same time) on the backs of sea turtles to figure out where they are going and what they are doing.   
+
+And I teach at the University. This in Slovenia apparently means, that as a teaching assistant you are all knowing being .. just look at the list of the classes I am or was teaching (mostly practicals though). At master level that is:
+
+* Marine Ecology,
+* Marine Conservation Biology,
+* Ecology of terrestrial ecosystems,
+* Advanced topics in Conservation biology (in which I teach Introduction to R),
+* Biology and conservation of large vertebrates,
+* Marine protected areas - human dimensions,
+* Population biology,
+* Conservation ecology of marine mammals.
+
+Uf, ...  and at bachelor level:
+
+* Basics of using R as GIS,
+* Introductory zoology,
+* Biology and diversity of vertebrates.
+
+Though I'm a "trained" biologist, I spend most of my time behind the computer. Self taught on how to use R for many different things, including of course, analysis and visualizations, but also like to prepare learning materials with markdown. Additionally, I have one failed attempt at building my own website a couple of years ago. I find it super interesting, how R and so many associated tools make it super easy to so much, especially for people that are not programmers per se.
+
+I will finish about me section with my education. You may not know, but I've studied at 75% of public Slovenian Universities:
+
+* PhD in Biological Sciences, Enrolled (University of Ljubljana, Slovenia)
+* Msc Nature Conservation, 2015 (University of Primorska, Slovenia)
+* BSc in Ecology and Nature Conservation, 2012 (University of Maribor, Slovenia)

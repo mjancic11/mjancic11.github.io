@@ -1,0 +1,114 @@
+---
+title: "The One on how fascinating tool GBIF is"
+description: "..."
+author: "Matic Jančič"
+date: "2/18/2023"
+image: "image.png"
+categories:
+  - code
+  - teaching
+  - opinion
+format:
+  html:
+    code-copy: true
+    code-fold: true
+    code-summary: "Show the code"
+    toc: true
+execute:
+  freeze: true 
+---
+
+```{r global_options, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, 
+                      error = FALSE)
+```
+
+## What is [rayshader](https://www.rayshader.com/) and why is it fascinating?
+
+```{r}
+
+```
+
+
+## How can you access species occurence data and what is in it?
+
+
+
+```{r}
+
+library(geodata)
+
+slovenija_DMV <- elevation_30s(country = "SI", path = "01_data")
+
+
+```
+
+```{r, echo = FALSE}
+library(rayshader)
+
+elmat <- raster_to_matrix(raster::raster(slovenija_DMV))
+```
+
+
+```{r}
+```
+
+
+```{r}
+elmat %>%
+    sphere_shade(texture = 'desert') %>%
+    add_water(detect_water(elmat), color = "desert") %>%
+#    add_shadow(ray_shade(elmat), 0.5) %>%
+#    add_shadow(ambient_shade(elmat), 0) %>%
+    plot_map()
+```
+
+
+```{r}
+elmat %>%
+  sphere_shade(texture = "desert") %>%
+  add_water(detect_water(elmat), color = "desert") %>%
+  plot_3d(elmat, zscale = 1, fov = 0, theta = 135, zoom = 1, phi = 45, windowsize = c(1000, 800))
+
+Sys.sleep(0.2)
+
+render_snapshot()
+```
+
+
+
+```{r}
+
+```
+
+
+## How can you access taxa occurrence data and what is in it? 
+
+Further
+Enable geographic limitations of downloaded occurences.
+
+```{r}
+
+```
+
+## What did we figure out in this study?
+
+
+```{r, out.width = "100%"}
+
+
+```
+
+<br>
+
+
+
+## Bonus: how did I make and combine the histogram and boxplot for the paper?
+
+
+```{r, out.width = "100%"}
+
+```
+
+
+

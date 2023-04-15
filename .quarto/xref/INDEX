@@ -1,0 +1,47 @@
+{
+  "index.qmd": {
+    "index.html": "04f8fcd7"
+  },
+  "about.qmd": {
+    "about.html": "81d21b12"
+  },
+  "posts/post-with-code/index.qmd": {
+    "index.html": "8c2b4319"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "8422cc5c"
+  },
+  "posts/first_post/first post.qmd": {
+    "first post.html": "5dd5cf84"
+  },
+  "posts/00_00_welcome/index.qmd": {
+    "index.html": "cd717d31"
+  },
+  "posts/00_01_first_post/first post.qmd": {
+    "first post.html": "10e35b44"
+  },
+  "posts/01_00_Intro to EKE/index.qmd": {
+    "index.html": "f5425144"
+  },
+  "publications.qmd": {
+    "publications.html": "c09b21a3"
+  },
+  "posts/00_01_writing my first paper/my first paper.qmd": {
+    "my first paper.html": "1933d9ff"
+  },
+  "posts/02_00_gbif/gbif demo.qmd": {
+    "gbif demo.html": "a2407631"
+  },
+  "posts/03_00 calout box demo/callout box demo.qmd": {
+    "callout box demo.html": "e64e84ed"
+  },
+  "posts/02_00_Rayshader/rayshader demo.qmd": {
+    "rayshader demo.html": "a1ded728"
+  },
+  "posts/01_01_Edraianthus/Peter_Edraianthus.qmd": {
+    "Peter_Edraianthus.html": "4558bd7c"
+  },
+  "posts/03_00 calout box demo/callout box demo w intro to R tutorial.qmd": {
+    "callout box demo w intro to R tutorial.html": "e4178a8f"
+  }
+}

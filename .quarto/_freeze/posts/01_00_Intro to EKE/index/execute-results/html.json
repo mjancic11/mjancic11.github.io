@@ -1,0 +1,14 @@
+{
+  "hash": "d891b462c0ee7ede485d878205c8e0c4",
+  "result": {
+    "markdown": "---\ntitle: \"Še en post s kodo\"\nauthor: \"MJ\"\ndate: \"2023-02-01\"\ncategories: [news]\nimage: \"image.jpg\"\n---\n\n\nThis is a post with executable code.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

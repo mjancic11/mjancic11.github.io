@@ -1,0 +1,23 @@
+project:
+  type: website
+
+website:
+  title: "Just AnothR blog"
+  navbar:
+    right:
+      - about.qmd
+      - publications.qmd
+      - icon: github
+        href: https://github.com/maticjancic
+      - icon: linkedin
+        href: https://www.linkedin.com/in/maticjancic/
+  search: 
+    location: navbar
+    type: overlay
+format:
+  html:
+    theme: Flatly
+    css: styles.css
+
+editor: source
+

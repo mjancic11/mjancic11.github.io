@@ -1,0 +1,30 @@
+---
+title: "Welcome To My Blog"
+author: "MJ"
+date: "2023-02-1"
+categories: [news]
+---
+
+This is my first post using Quarto. Welcome!
+
+![](thumbnail.jpg)
+
+Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+
+---
+
+Hahaha. I'll just leave the above in the post, so you all know it. Quarto will use the first image in the post as the one to show in the listing page. 
+
+At this point in time, I'm starting this blog with multiple objectives:
+
+* learn how to use quarto and use it instead of RMarkdown (I intend to remake all my teaching materials using quarto and publish online),
+* get in the habit of writing more, specifically writing non-academic stuff,
+* hopefully advertise myself, as I'm not sure, whether or how long I'm staying in academia,
+* maybe something else, but can't elaborate now.
+
+As I'm writing this lines, I don't yet know how to publish this blog online. I will try to do it using github pages, but still need to figure it out how.
+
+What I find extremely fascinating, is how easy it is (so far) to create and adapt the pages of the website. As you will see, I added the page `Publications` at the top rigth corner of the page, where you can find the scientific papers that I was a (co)author of. They are stored in a `bib` document and cited according to `Frontiers in marine science template`. As it is a common practice to highlight your name, I found a very simple solution [online](https://www.neilwright.uk/posts/quarto-bibliography-format-name.html) (thank you, Neil Wright for that) and used two `lua` scrips (never heard before that `lua` exists) to do just that. My name is now automatically written with bold letters. Hurray!!
+
+I will conclude here with the welcome post and go figuring out, how to get this blog online. If I make, you will be able to read this lines. If not, well for now your are not missing out a lot.
+
