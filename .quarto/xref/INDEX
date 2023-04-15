@@ -43,5 +43,11 @@
   },
   "posts/03_00 calout box demo/callout box demo w intro to R tutorial.qmd": {
     "callout box demo w intro to R tutorial.html": "e4178a8f"
+  },
+  "posts/callout box demo.qmd": {
+    "callout box demo.html": "6c65999c"
+  },
+  "posts/test.qmd": {
+    "test.html": "3a24ed0d"
   }
 }
