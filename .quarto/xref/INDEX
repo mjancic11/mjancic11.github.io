@@ -49,5 +49,8 @@
   },
   "posts/test.qmd": {
     "test.html": "3a24ed0d"
+  },
+  "posts/00_01_Lošinj/Losinj.qmd": {
+    "Losinj.html": "d18d81df"
   }
 }
