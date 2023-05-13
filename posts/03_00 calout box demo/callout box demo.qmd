@@ -1,0 +1,68 @@
+---
+title: "The One in which I learned how to use the call-out boxes"
+description: "Call-Out box is a great (web design) tool that can be used to inject pages with additional visual interest or to highlight important information"
+author: "Matic Jančič"
+date: "5/13/2023"
+image: "image.png"
+categories:
+  - code
+  - opinion
+format:
+  html:
+    code-copy: true
+    code-fold: true
+    code-summary: "Show the code"
+    toc: true
+execute:
+  freeze: true 
+---
+
+When preparing teaching materials for my visit to University of Puly, Croatia, I needed to solve the default printing of numbers from R code to scientific format. I found an easy solution, simply adding `scipen = 999` to the first R code chunk. However, in the process of searching came across a nice visual display of a summary at the top of a [blog post](https://graphdr.github.io/data-stories/posts/2022-11-18-formatdown/). I really liked this type of highlighting some of the text and explored straight away, how to implement it in my [teaching materials](https://maticjancic.github.io/posts/03_GLOBAL%20ENV%20DATA.html). The form itself is called a **call-out box** and the following five types are very easy to implement:
+
+::: {.callout-note}
+Note that there are five types of callouts, including:
+`note`, `warning`, `important`, `tip`, and `caution`.
+:::
+
+::: {.callout-warning}
+Note that there are five types of callouts, including:
+`note`, `warning`, `important`, `tip`, and `caution`.
+:::
+
+::: {.callout-important}
+Note that there are five types of callouts, including:
+`note`, `warning`, `important`, `tip`, and `caution`.
+:::
+
+::: {.callout-tip}
+Note that there are five types of callouts, including:
+`note`, `warning`, `important`, `tip`, and `caution`.
+:::
+
+::: {.callout-caution}
+Note that there are five types of callouts, including:
+`note`, `warning`, `important`, `tip`, and `caution`.
+:::
+
+To create either one of them, one needs to add the following syntax within the RMarkdown or Quarto document. To define the different type of the call-out box, the part within the curly brackets needs to be replaced with one of the `note, warning, important, tip, or caution`:
+
+```{r, eval = FALSE}
+::: {.callout-caution}
+Note that there are five types of callouts, including:
+`note`, `warning`, `important`, `tip`, and `caution`.
+:::
+
+```
+
+Other words can be used as well to create a custom named call-out box. In that case however, the box is colored in grey by default and there is no icon preceding the box name:
+
+::: {.callout-disclaimer}
+Note that there are five types of callouts, including:
+`note`, `warning`, `important`, `tip`, and `caution`.
+:::
+
+It is of course possible, to change the color of the call-out boxes, their names and to retain the symbols, but I'm not there yet `r emo::ji("face with tears of joy")`. I will leave you with an example of that (**all credits go to the slide authors, which are a huge inspiration to me**) and conclude that I just got a new idea for a blog post `r emo::ji("smile")``r emo::ji("sunglasses")``r emo::ji("biceps")`:
+ 
+```{=html}
+<iframe width="780" height="500" src="https://cwd.numbat.space/lectures/lecture-01.html#/week-1-lesson-1" title="Emi Tanaka"></iframe>
+```
