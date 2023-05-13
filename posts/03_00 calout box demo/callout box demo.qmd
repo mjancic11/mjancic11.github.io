@@ -17,7 +17,7 @@ execute:
   freeze: true 
 ---
 
-When preparing teaching materials for my visit to University of Puly, Croatia, I needed to solve the default printing of numbers from R code to scientific format. I found an easy solution, simply adding `scipen = 999` to the first R code chunk. However, in the process of searching came across a nice visual display of a summary at the top of a [blog post](https://graphdr.github.io/data-stories/posts/2022-11-18-formatdown/). I really liked this type of highlighting some of the text and explored straight away, how to implement it in my [teaching materials](https://maticjancic.github.io/posts/03_GLOBAL%20ENV%20DATA.html). The form itself is called a **call-out box** and the following five types are very easy to implement:
+When preparing teaching materials for my visit to University of Puly, Croatia, I needed to solve the default printing of numbers from R code to scientific format. I found an easy solution, simply adding `scipen = 999` to the first R code chunk. However, in the process of searching I came across a nice visual display of a summary at the top of a [blog post](https://graphdr.github.io/data-stories/posts/2022-11-18-formatdown/). I really liked this type of highlighting some of the text and explored straight away, how to implement it in my [teaching materials](https://maticjancic.github.io/posts/03_GLOBAL%20ENV%20DATA.html). The form itself is called a **call-out box** and the following five types are very easy to implement:
 
 ::: {.callout-note}
 Note that there are five types of callouts, including:
@@ -61,7 +61,7 @@ Note that there are five types of callouts, including:
 `note`, `warning`, `important`, `tip`, and `caution`.
 :::
 
-It is of course possible, to change the color of the call-out boxes, their names and to retain the symbols, but I'm not there yet `r emo::ji("face with tears of joy")`. I will leave you with an example of that (**all credits go to the slide authors, which are a huge inspiration to me**) and conclude that I just got a new idea for a blog post `r emo::ji("smile")``r emo::ji("sunglasses")``r emo::ji("biceps")`:
+It is of course possible, to change the color of the call-out boxes, their names and to retain the symbols, but I'm not there yet `r emo::ji("face with tears of joy")`. I will leave you with an example of that (**all credits go to the [slide authors](https://emitanaka.org/), which are a huge inspiration to me**) and conclude that I just got a new idea for a blog post `r emo::ji("smile")``r emo::ji("sunglasses")``r emo::ji("biceps")`:
  
 ```{=html}
 <iframe width="780" height="500" src="https://cwd.numbat.space/lectures/lecture-01.html#/week-1-lesson-1" title="Emi Tanaka"></iframe>
