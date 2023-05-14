@@ -52,5 +52,11 @@
   },
   "posts/00_01_Lošinj/Losinj.qmd": {
     "Losinj.html": "d18d81df"
+  },
+  "posts/02_00_gbif/gbif demo.rmarkdown": {
+    "gbif demo.html": "f7495ee6"
+  },
+  "posts/02_00_gbif/gbif _demo.qmd": {
+    "gbif _demo.html": "eae94a03"
   }
 }
