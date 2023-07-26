@@ -92,7 +92,7 @@ We finally managed to publish this article in December 2022. From a relatively e
 
 I added useful comments to the code bellow that describe what a particular line does. I used `ggplot2`{.r} to create both graphs and polish them mostly within the `theme()`{.r} function. The major adaptations were removing axis labels, titles and ticks, so they are not duplicated. Also, I reduced white space around both plots with `plot.margin =`{.r}. Lastly, I found it most convenient to use the `plot_grid()`{.r} function from `cowplot` package to arrange the two plots according to my preferences.
 
-```{r, out.width = "100%"}
+```{r, eval = FALSE}
 library(ggplot2)
 
 # define size classes in 5 cm interval, tickmarks in 10 cm interval and x axis limits
@@ -145,6 +145,9 @@ plot_grid(greens_histogram, # histogram on top
           labels = "AUTO", # with automatic labels
           label_size = 15) # of font size 15
 ```
+
+![](plot 1.png)
+
 
 This last part of the code was not executed in this post, but demonstrates how to add a random image to your plots. If your image is in `.png` use `readPNG()` function to load it into R. Then add it to your plot using `draw_image`{.r} from `cowplot`. You will have to play around with the placement, the numbers in the example below suit our histogram with a lot of blank space top right.   
 
