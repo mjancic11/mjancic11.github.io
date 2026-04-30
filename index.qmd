@@ -14,7 +14,7 @@ format:
     code-copy: true
 ---
 
-Test jan 2026
+Test APR 2026
 
 Decided to share my thoughts, R related teaching and research in times of Chat GPT and general information overload.
 
