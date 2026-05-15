@@ -16,7 +16,6 @@ format:
 
 Test APR 2026
 
-Decided to share my thoughts, R related teaching and research in times of Chat GPT and general information overload.
 
 Inspired by [Appsilons](https://appsilon.com/) [Data for Good](https://appsilon.com/data-for-good/) and [Experimental history](https://experimentalhistory.substack.com/) (and many others, whose pages I glimpsed and can't remember of the top of my head).
 
