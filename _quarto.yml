@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - CNAME
 
 website:
   description: "Data, maps and training for marine researchers and conservation teams."
