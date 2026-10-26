@@ -1,0 +1,90 @@
+/*-- scss:defaults --*/
+$body-bg: #f3f6f6;
+$body-color: #0e2230;
+$link-color: #0b6b78;
+$link-hover-color: #0e2230;
+$font-family-sans-serif: "Inter", system-ui, sans-serif;
+$headings-font-family: "Bricolage Grotesque", sans-serif;
+$headings-font-weight: 700;
+$navbar-bg: #f3f6f6;
+$navbar-light-color: #0e2230;
+$navbar-light-hover-color: #0b6b78;
+$footer-bg: #f3f6f6;
+$footer-fg: #3d5560;
+
+/*-- scss:rules --*/
+.navbar-brand img { height: 40px; max-height: 40px; }
+.navbar .nav-link { font-weight: 500; }
+.nav-footer { border-top: 0; }
+
+/* Layout helpers */
+.wrap { max-width: 1120px; margin: 0 auto; padding: 0 2rem; }
+
+/* Hero */
+.hero { padding: 4rem 0 5.5rem; }
+.hero .wrap {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 3rem;
+}
+.hero-text { flex: 1 1 460px; min-width: 0; }
+.hero-art { flex: 1 1 320px; display: flex; justify-content: center; }
+.hero-art img { width: 100%; max-width: 340px; height: auto; }
+.eyebrow {
+  font-size: .875rem; font-weight: 500; letter-spacing: .14em;
+  text-transform: uppercase; color: #0b6b78; margin-bottom: 1.5rem;
+}
+.hero h1 {
+  font-size: clamp(2.5rem, 6vw, 4.25rem); line-height: 1.04;
+  letter-spacing: -.02em; margin: 0 0 1.5rem; text-wrap: balance;
+}
+.hero-lead { max-width: 520px; font-size: 1.2rem; margin-bottom: 1.75rem; }
+.cta-row { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 1.75rem; }
+.btn-squalo {
+  display: inline-flex; align-items: center; min-height: 48px; padding: 0 1.75rem;
+  background: #0b6b78; color: #fff !important; border-radius: 999px;
+  font-weight: 500; text-decoration: none;
+}
+.btn-squalo:hover { background: #0e2230; }
+.link-quiet { font-weight: 500; }
+
+/* Services band */
+.band-dark { background: #0e2230; color: #f3f6f6; padding: 5.5rem 0; }
+.band-dark h2 { color: #f3f6f6; margin-top: 0; font-size: clamp(1.9rem, 4vw, 2.75rem); }
+.band-dark .intro { color: #c9d6da; max-width: 640px; margin-bottom: 3rem; }
+.cards {
+  display: grid; gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+}
+.card-service {
+  border: 1px solid #36505c; border-radius: 16px; padding: 2rem;
+}
+.card-service .num {
+  font-family: "Bricolage Grotesque", sans-serif; font-weight: 700;
+  font-size: .9375rem; letter-spacing: .14em; color: #7fd0db;
+}
+.card-service h3 { color: #f3f6f6; font-size: 1.5rem; line-height: 1.2; margin: .9rem 0; }
+.card-service p { color: #c9d6da; margin: 0; }
+
+/* About */
+.about { padding: 5.5rem 0; }
+.about .wrap { display: flex; flex-wrap: wrap; gap: 2rem 4rem; }
+.about h2 { flex: 1 1 260px; margin: 0; font-size: clamp(1.9rem, 4vw, 2.75rem); line-height: 1.1; }
+.about-text { flex: 2 1 380px; min-width: 0; }
+
+/* Contact band */
+.band-light { background: #dfe9ea; padding: 4.5rem 0; }
+.band-light .wrap {
+  display: flex; flex-wrap: wrap; align-items: center;
+  justify-content: space-between; gap: 1.75rem;
+}
+.band-light h2 { flex: 1 1 380px; max-width: 640px; margin: 0; font-size: clamp(1.75rem, 3.6vw, 2.5rem); line-height: 1.15; text-wrap: balance; }
+
+/* RG, IN, ORCID icons */
+.nav-footer-right { display: flex; gap: 16px; }
+.nav-footer-right a {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 56px; height: 56px; border-radius: 999px;
+  background: #0e2230; color: #f3f6f6 !important; text-decoration: none;
+  font-size: 1.75rem; line-height: 1;
+}
+.nav-footer-right a i { font-size: 1.75rem; }
+.nav-footer-right a:hover { background: #0b6b78; }

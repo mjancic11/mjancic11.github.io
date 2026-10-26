@@ -1,24 +1,94 @@
 ---
-title: ""
-listing:
-  contents: posts
-  sort: "date desc"
-  type: grid
-  categories: true
-  sort-ui: false
-  filter-ui: false
+pagetitle: "Squalo | Data, maps and training"
 page-layout: full
-title-block-banner: true
-format:
-  html:
-    code-copy: true
+title-block-style: none
 ---
 
-Test APR 2026
+::: {.hero}
+::: {.wrap}
+::: {.hero-text}
+::: {.eyebrow}
+Data, maps and training
+:::
 
+# Clear answers from complex data. {.unnumbered}
 
-Inspired by [Appsilons](https://appsilon.com/) [Data for Good](https://appsilon.com/data-for-good/) and [Experimental history](https://experimentalhistory.substack.com/) (and many others, whose pages I glimpsed and can't remember of the top of my head).
+::: {.hero-lead}
+Squalo is a small consultancy for data exploration, spatial analysis and scientific consultation, built for marine researchers and conservation teams who need clear answers from complex field data.
+:::
 
-Enjoy.
+::: {.cta-row}
+[Get in touch](mailto:matic@squalo.me){.btn-squalo}
+[See what I do](services.qmd){.link-quiet}
+:::
+:::
 
----
+::: {.hero-art}
+![](images/squalo-mark.svg){fig-alt=""}
+:::
+:::
+:::
+
+::: {.band-dark #services}
+::: {.wrap}
+## What I do {.unnumbered}
+
+::: {.intro}
+Three ways to work together, from a one-off analysis to an ongoing consulting or mentoring.
+:::
+
+::: {.cards}
+::: {.card-service}
+::: {.num}
+01
+:::
+
+### From Data to Insights {.unnumbered}
+
+Data exploration, statistics and visualisation. Reproducible analyses for field data of any kind, from tracking datasets to population surveys.
+:::
+
+::: {.card-service}
+::: {.num}
+02
+:::
+
+### Spatial Analysis & Visualisation {.unnumbered}
+
+Turning location data into maps and models that show where things happen, what drives the patterns, and why it matters for conservation.
+:::
+
+::: {.card-service}
+::: {.num}
+03
+:::
+
+### Training, Consultation & Mentoring {.unnumbered}
+
+One-to-one sessions, code review and project guidance for researchers who want to move faster and make better decisions with their data.
+:::
+:::
+:::
+:::
+
+::: {.about #about}
+::: {.wrap}
+## Who is behind Squalo {.unnumbered}
+
+::: {.about-text}
+Squalo is run by Matic Jančič, based in Slovenia. Ten years of marine megafauna fieldwork and spatial analysis have taught me how messy real data gets, and how to make it useful for the researchers and teams who have to act on it.
+
+I work in English and Slovenian, with researchers, small teams and conservation organisations.
+
+[More about me](about.qmd)
+:::
+:::
+:::
+
+::: {.band-light #contact}
+::: {.wrap}
+## Have a dataset or a project that needs to get unstuck? {.unnumbered}
+
+[Get in touch](mailto:matic@squalo.me){.btn-squalo}
+:::
+:::

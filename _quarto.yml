@@ -1,25 +1,43 @@
 project:
   type: website
-  output-dir: docs
-
 
 website:
-  title: "Just AnothR blog"
+  description: "Data, maps and training for marine researchers and conservation teams."
   navbar:
+    logo: images/squalo-wordmark.svg
+    logo-alt: "Squalo sp."
+    background: light
+    search: false
     right:
-      - about.qmd
-      - publications.qmd
-      - icon: github
-        href: https://github.com/maticjancic
-      - icon: linkedin
-        href: https://www.linkedin.com/in/maticjancic/
-  search: 
-    location: navbar
-    type: overlay
+      - text: "Home"
+        href: index.qmd
+      - text: "Services"
+        href: services.qmd
+      - text: "Portfolio"
+        href: portfolio.qmd
+      - text: "Posts"
+        href: posts.qmd
+      - text: "About"
+        href: about.qmd
+  page-footer:
+    left: "© 2026 Squalo s.p. · Slovenia"
+    right:
+      - text: '<i class="fa-brands fa-researchgate"></i>'
+        href: https://www.researchgate.net/profile/Matic-Jancic
+        aria-label: "ResearchGate profile"
+      - text: '<i class="fa-brands fa-linkedin-in"></i>'
+        href: https://www.linkedin.com/in/maticjancic
+        aria-label: "LinkedIn profile"
+      - text: '<i class="fa-brands fa-orcid"></i>'
+        href: https://orcid.org/0000-0002-6872-4078
+        aria-label: "ORCID profile"
+        
 format:
   html:
-    theme: Flatly
-    css: styles.css
-
-editor: source
-
+    theme: [cosmo, styles.scss]
+    toc: false
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Inter:wght@400;500&display=swap">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
